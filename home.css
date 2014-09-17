@@ -1,0 +1,60 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Lato';
+
+}
+
+#vid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100vh;
+    width: auto; height: auto; z-index: -100;
+    background: no-repeat;
+    background-size: cover;
+}
+
+.fullVideo {
+    background: rgba(53, 53, 53, 0.29);
+    height:100vh;
+    width:100%;
+}
+
+.videoWrap {
+    height:100%;
+    width:100%;
+}
+
+.outer {
+    display:table;
+    height:100%;
+    width:100%;
+}
+
+.inner {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.full {
+    height:100%;
+    width:100%;
+}
+
+#jumboTitle {
+    font-size: 138px;
+    color:wheat;
+    line-height: 138px;
+    border-top: 10px solid wheat;
+    border-bottom: 10px solid wheat;
+    padding-bottom:7px;
+}
+
+#subTitle {
+    color:wheat;
+    font-size:41px;
+    padding:10px;
+    bottom:10px;
+    border-bottom:4px solid wheat;
+}
+
